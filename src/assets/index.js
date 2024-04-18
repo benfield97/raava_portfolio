@@ -1,17 +1,20 @@
-import logo from "./logo.png";
+import admatic from "./admatic.jpeg";
+import affinda from './affinda.jpeg';
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
+import bias from './bias.png';
 import close from "./close.svg";
-import river from './river.png'
-import privateAI from './private.png'
-import ripe from './ripe.png'
-import bias from './bias.png'
-import flying_fox from './flying_fox.svg'
-import kez from './kez.webp'
+import creator from "./creator.png";
+import flying_fox from './flying_fox.svg';
+import github from "./github.png";
+import kez from './kez.webp';
+import logo from "./logo.png";
+import menu from "./menu.svg";
+import mobile from "./mobile.png";
+import privateAI from './private.png';
+import ripe from './ripe.png';
+import river from './river.png';
+import vesparum from './vesparum.png';
+
 
 
 import css from "./tech/css.png";
@@ -25,16 +28,19 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png";
+import web from "./web.png";
 
+
+import DDB from './DDB.png';
+import SG from './SG.png';
+import ben from './company/ben.png';
+import justin from './company/justin.jpeg';
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import ben from './company/ben.png'
-import justin from './company/justin.jpeg'
-import ripe_logo from './ripe_logo.png'
+import ripe_logo from './ripe_logo.png';
 
 
 import carrent from "./carrent.png";
@@ -42,41 +48,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
+  DDB, SG, admatic, affinda, backend, ben, bias, carrent, close, creator, css,
   docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  ben,
-  justin,
-  river,
-  privateAI,
-  ripe,
-  bias,
-  ripe_logo,
-  flying_fox,
-  kez
+  figma, flying_fox, git, github, html, javascript, jobit, justin, kez, logo, menu, meta, mobile, mongodb,
+  nodejs, privateAI, reactjs,
+  redux, ripe, ripe_logo, river, shopify,
+  tailwind, tesla, threejs, tripguide, typescript, vesparum, web
 };
+

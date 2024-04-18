@@ -1,36 +1,22 @@
 import {
-  mobile,
+  DDB,
+  SG,
+  admatic,
+  affinda,
   backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  justin,
   ben,
-  starbucks,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  river,
+  bias,
+  creator,
+  flying_fox,
+  justin,
+  kez,
+  mobile,
   privateAI,
   ripe,
-  bias,
   ripe_logo,
-  flying_fox,
-  kez
+  river,
+  vesparum,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -67,60 +53,6 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
 
 const experiences = [
   {
@@ -142,40 +74,26 @@ const experiences = [
     ],
   },
 ];
-
+const technologies = [];
 const testimonials = [
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "River Capital",
-    designation: "CTO",
-    company: "456 Enterprises",
     image: river,
   },
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Kez",
-    designation: "CFO",
-    company: "Acme Co",
     image: kez,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Flying Fox",
-    designation: "COO",
-    company: "DEF Corp",
     image: flying_fox,
   },
   {
-    testimonial:
-      "I love to hate crime and i don't care who knows it!",
-    name: "ripe",
-    designation: "CTO",
-    company: "456 Enterprises",
     image: ripe_logo
   },
+  {image: affinda},
+  {name: 'Vesparum', image: vesparum},
+  {name: 'SG Hiscock', image: SG},
+  {image: DDB},
+  {name: 'Admatic', image: admatic}
+
 ];
 
 const projects = [
@@ -202,4 +120,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
