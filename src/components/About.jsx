@@ -1,10 +1,10 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
 
-import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -46,9 +46,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        We're an applied AI and Automation consultancy. 
-        We help businesses to understand and capture the enormous value created by AI and automation.
-        We do this through staff training, workshops, business analysis and software development. 
+        We specialize in:
+        <ul className="list-disc pl-5 mt-2">
+          <li>Enhancing LLM solutions through custom evaluation frameworks, RAG optimization, and model fine-tuning.</li>
+          <li>Working across teams to build the internal AI skills needed for enduring change.</li>
+          <li>Training and educating teams on using AI to scale their output and delight customers.</li>
+        </ul>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

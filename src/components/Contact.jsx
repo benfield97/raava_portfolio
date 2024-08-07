@@ -65,7 +65,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`flex xl:flex-row w-full flex-col-reverse overflow-hidden justify-center`}
+      className={`flex xl:flex-row  flex-col-reverse overflow-hidden justify-center`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -84,7 +84,7 @@ const Contact = () => {
         </p>
 
         
-
+{/* 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -130,7 +130,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-        </form>
+        </form> */}
       </motion.div>
 
     </div>

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -19,8 +18,7 @@ const Hero = () => {
             <span className='text-white'>raava</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            We bring the cutting edge of AI and automation<br className='sm:block hidden' />
-            to your business.
+            Gen AI Consultancy.
           </p>
         </div>
       </div>

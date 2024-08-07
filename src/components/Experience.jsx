@@ -1,15 +1,11 @@
-import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import React from "react";
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
@@ -45,11 +41,11 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-start`}>
-          About Us.
+          Our Founders.
         </h2>
       </motion.div>
 
-      <div className='mt-24 flex flex-col justify-center sm:justify-center md:justify-start md:flex-row sm:w-full gap-10'>
+      <div className=' flex flex-col justify-center sm:justify-center md:justify-start md:flex-row sm:w-full gap-10'>
           {experiences.map((experience, index) => (
             <ExperienceCard 
               key={`experience-${index}`}
