@@ -48,9 +48,9 @@ const About = () => {
       >
         We specialize in:
         <ul className="list-disc pl-5 mt-2">
-          <li>Enhancing LLM solutions through custom evaluation frameworks, RAG optimization, and model fine-tuning.</li>
           <li>Working across teams to build the internal AI skills needed for enduring change.</li>
           <li>Training and educating teams on using AI to scale their output and delight customers.</li>
+          <li>Enhancing LLM solutions through custom evaluation frameworks, RAG optimization, and model fine-tuning.</li>
         </ul>
       </motion.p>
 
