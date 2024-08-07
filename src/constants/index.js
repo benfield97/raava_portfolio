@@ -60,7 +60,7 @@ const experiences = [
     icon: justin,
     iconBg: "#383E56",
     points: [
-      "Master's of Data Scince @ Melbourne University. Ex. Quant Trader at Akuna Capital.",
+      "Master's of Data Science @ Melbourne University. Ex. Quant Trader at Akuna Capital.",
       'Interested in statistics, complex systems and AI safety. Experienced in AI Engineering and Machine Learning.'
     ],
   },
